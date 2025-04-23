@@ -1,0 +1,15 @@
+[project]
+name = "workflow-1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "crewai>=0.114.0",
+    "crewai-tools>=0.40.1",
+    "fastapi>=0.115.9",
+    "groq>=0.22.0",
+    "langchain-groq>=0.3.2",
+    "pydantic>=2.11.3",
+    "uvicorn>=0.34.2",
+]

@@ -1,0 +1,20 @@
+tasks:
+  generate_blog:
+    agent: writer
+    description: "Draft a long-form, keyword-optimized blog post based on the provided main_keyword here: {main_keyword} and a list of related_keywords here: {related_keywords}. Include headings, subheadings, and a clear narrative structure."
+
+  humanize_blog:
+    agent: humanizer
+    description: "Refine the draft to improve emotional connection, use storytelling techniques, remove robotic tone, and enhance fluency and engagement."
+
+  check_seo:
+    agent: seo_checker
+    description: "Conduct a full SEO analysis of the blog. Ensure correct use of primary and secondary keywords, readability, structured data, and internal linking suggestions."
+
+  detect_ai:
+    agent: ai_checker
+    description: "Scan the content for AI-generation patterns using detection logic. Adjust suspicious sections to improve naturalness and reduce AI scores."
+
+  orchestrate:
+    agent: manager
+    description: "Oversee all stages, compile reports from all agents, revise if needed, and prepare the final version of the article for delivery."

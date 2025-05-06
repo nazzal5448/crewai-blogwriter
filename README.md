@@ -36,8 +36,8 @@ workflow-1/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/crewai-blog-writer.git
-cd crewai-blog-writer
+git clone https://github.com/nazzal5448/crewai-blogwriter.git
+cd crewai-blogwriter
 ```
 
 ### 2. Create a Virtual Environment
